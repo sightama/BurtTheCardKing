@@ -17,3 +17,17 @@ Instructions (w/o markdown):
 
 5. Export every deck of each color from Eternal and import into collection on
     EternalWarcry.com
+
+_____________________________________________________________________
+CLUSTERING STRUCTURE IDEAS:
+
+STEP1: GATHER THE DATA
+	- Use Selenium/BeautifulSoup to webscrape CARDNAME|CARDTEXT|FACTION(S), then store in csv or xls.
+	OR
+	- Find somebody's already made excel with card and text details.
+
+STEP2: REMOVE STOPWORDS AND PERFORM K-MEANS ALG. ON CARDTEXT
+	- Initially I wanted to group the factions, THEN cluster on the text, but for the first run we will cluster on just the text.
+
+
+-Lane
