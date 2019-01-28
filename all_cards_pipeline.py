@@ -98,4 +98,4 @@ while True:
     page_num = page_num + 1  # Iterate don't wanna forget ;)
 
 print(str(page_num), str(df_index)) # Just for verification that we hit 54 pgs, and have 1721 cards.
-df_all_cards.to_excel('all_cards.xlsx')
+df_all_cards.to_excel('all_cards.xlsx', index=False)
