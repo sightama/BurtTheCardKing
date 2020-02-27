@@ -1,3 +1,28 @@
+Support for python version 3.7.6
+Also you will need to install 'Build Tools for Visual Studio' from here: https://visualstudio.microsoft.com/downloads/?q=visual+c%2B%2B+build+tools to be able to install jupyter fro mCLI to your venv.
+Once your in the installer it will prompt you with options. Select only C++ build tools and proceed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OLD:
+______________________________________________________________
 Instructions (w/o markdown):
 
 1. Create account at eternalwarcry.com, goto "Menu"->

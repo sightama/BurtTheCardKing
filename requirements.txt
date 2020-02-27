@@ -1,0 +1,5 @@
+jupyter
+pyautogui
+pytest
+pytest-mock
+pywin32
