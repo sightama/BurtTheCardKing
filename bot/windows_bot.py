@@ -34,7 +34,7 @@ class WindowsBot(Bot):
         """
         pyautogui.click(pos[0], pos[1], button=mouse_button) if pos else pyautogui.click(button=mouse_button)
 
-    def mouse_drag(self, pos: tuple = None, move_time: float = 3.0):
+    def mouse_drag(self, pos: tuple, move_time: float = 3.0):
         """ CLicks at existing location and drags to location and un-clicks. dragRel is also a thing. """
         pyautogui.dragTo(pos[0], pos[1], duration=move_time)
 
