@@ -7,3 +7,7 @@ class InvalidWindowsButton(Exception):
 
 class InvalidEternalWindow(Exception):
     pass
+
+
+class NoEternalWindowError(Exception):
+    pass
