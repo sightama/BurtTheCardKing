@@ -4,3 +4,6 @@ pyautogui
 pytest
 pytest-mock
 pywin32
+# Necessary for scripts/web_scrape_all_cards.py
+pandas
+mechanicalsoup
