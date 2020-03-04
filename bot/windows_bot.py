@@ -22,7 +22,7 @@ class WindowsBot(Bot):
         # TODO: Display to users window screen options, then choose one and put the top left corner of it as origin.
         pass
 
-    def mouse_move(self, position: tuple, move_time: float = 3.0):
+    def mouse_move(self, position: tuple, move_time: float = 0.40):
         """ move_time = duration = time it takes to move the mouse to the new position on screen."""
         # TODO: Investigate pyautogui.moveRel (moves relative to mouses current position).
         pyautogui.moveTo(position[0], position[1], duration=move_time)
@@ -34,7 +34,7 @@ class WindowsBot(Bot):
         """
         pyautogui.click(pos[0], pos[1], button=mouse_button) if pos else pyautogui.click(button=mouse_button)
 
-    def mouse_drag(self, pos: tuple, move_time: float = 3.0):
+    def mouse_drag(self, pos: tuple, move_time: float = 0.40):
         """ CLicks at existing location and drags to location and un-clicks. dragRel is also a thing. """
         pyautogui.dragTo(pos[0], pos[1], duration=move_time)
 
